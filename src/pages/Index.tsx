@@ -129,7 +129,7 @@ const Index = () => {
               </Link>
               <Link
                 to="/services"
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3.5 text-base font-semibold text-white shadow-[0_18px_35px_-18px_rgba(0,0,0,0.4)] transition hover:-translate-y-0.5 hover:bg-slate-900"
               >
                 Explore services
               </Link>
