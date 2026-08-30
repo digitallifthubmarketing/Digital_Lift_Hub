@@ -43,13 +43,13 @@ const About = () => {
         description="Our story, mission and the founders behind Digital Lift Hub in Hyderabad."
       />
 
-      <section className="relative overflow-hidden bg-[var(--gradient-hero)] text-white">
+      <section className="relative overflow-hidden bg-[#f4ebd7] text-slate-900">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(251,191,36,0.3),transparent_22%)]" aria-hidden="true" />
         <div className="section-shell relative py-16 lg:py-20">
           <div className="mx-auto max-w-4xl text-center">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-yellow-400">About digital lift hub</p>
-            <h1 className="text-4xl font-black tracking-[-0.05em] md:text-6xl text-black">We build digital brands people trust.</h1>
-            <p className="mt-5 text-lg text-slate-500 md:text-xl">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-slate-800">About digital lift hub</p>
+            <h1 className="text-4xl font-black tracking-[-0.05em] text-slate-900 md:text-6xl">We build digital brands people trust.</h1>
+            <p className="mt-5 text-lg text-slate-700 md:text-xl">
               Digital Lift Hub is a Hyderabad-based digital growth studio helping businesses stand out with premium web experiences, content strategy, and measurable brand growth.
             </p>
           </div>

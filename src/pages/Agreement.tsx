@@ -55,16 +55,16 @@ const Agreement = () => {
         description="Scope, confidentiality, revisions and terms. Sign digitally via Formspree."
       />
 
-      <section className="relative overflow-hidden bg-[var(--gradient-hero)] text-white">
+      <section className="relative overflow-hidden bg-[#f4ebd7] text-slate-900">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(251,191,36,0.28),transparent_24%)]" aria-hidden="true" />
         <div className="section-shell relative py-16 lg:py-20">
           <div className="mx-auto max-w-4xl text-center">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-yellow-400">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-800 shadow-sm">
               <Sparkles className="h-3.5 w-3.5 text-[hsl(var(--accent))]" />
               Client agreement
             </div>
-            <h1 className="text-4xl font-black tracking-[-0.05em] md:text-6xl text-black">Professional, clear, and ready to sign.</h1>
-            <p className="mt-5 text-lg text-slate-400 md:text-xl">
+            <h1 className="text-4xl font-black tracking-[-0.05em] text-slate-900 md:text-6xl">Professional, clear, and ready to sign.</h1>
+            <p className="mt-5 text-lg text-slate-700 md:text-xl">
               The agreement below outlines scope, timelines, revisions, confidentiality, and the commercial terms for our partnership.
             </p>
           </div>

@@ -179,16 +179,16 @@ const Quotation = () => {
     <main className="overflow-hidden">
       <SEO title="Service Proposal | Digital Lift Hub" description="Interactive proposal builder with deliverable scope and downloadable PDF." />
 
-      <section className="relative overflow-hidden bg-[var(--gradient-hero)] text-white">
+      <section className="relative overflow-hidden bg-[#f4ebd7] text-slate-900">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(251,191,36,0.25),transparent_22%)]" aria-hidden="true" />
         <div className="section-shell relative py-16 lg:py-20">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-yellow-400">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-800 shadow-sm">
               <Sparkles className="h-3.5 w-3.5 text-[hsl(var(--accent))]" />
               proposal builder
             </div>
-            <h1 className="text-4xl font-black tracking-[-0.05em] md:text-6xl md:text-black">Custom growth proposal</h1>
-            <p className="mt-4 text-lg text-slate-400 md:text-xl">
+            <h1 className="text-4xl font-black tracking-[-0.05em] text-slate-900 md:text-6xl">Custom growth proposal</h1>
+            <p className="mt-4 text-lg text-slate-700 md:text-xl">
               Select the services you need and generate a polished proposal ready for discussion and approval.
             </p>
           </div>

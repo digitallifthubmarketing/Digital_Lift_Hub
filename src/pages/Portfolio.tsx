@@ -101,20 +101,20 @@ const Portfolio = () => {
         description="Explore our past web development projects and digital content creation for 50+ YouTube channels and Instagram creators."
       />
 
-      <section className="relative overflow-hidden bg-[var(--gradient-hero)] text-white">
+      <section className="relative overflow-hidden bg-[#f4ebd7] text-slate-900">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(251,191,36,0.25),transparent_22%)]" aria-hidden="true" />
         <div className="section-shell relative grid gap-10 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-24">
           <div>
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.32em] text-yellow-400">
+            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.32em] text-slate-800 shadow-sm">
               <Sparkles className="h-3.5 w-3.5 text-[hsl(var(--accent))]" />
               selected work
             </div>
 
-            <h1 className="max-w-xl text-4xl font-black tracking-[-0.05em] md:text-6xl text-black/90">
+            <h1 className="max-w-xl text-4xl font-black tracking-[-0.05em] text-slate-900 md:text-6xl">
               Work that feels premium and performs.
             </h1>
 
-            <p className="mt-5 max-w-xl text-lg text-slate-500">
+            <p className="mt-5 max-w-xl text-lg text-slate-700">
               From high-converting websites to attention-grabbing content systems, we build digital experiences that look strong and move businesses forward.
             </p>
 

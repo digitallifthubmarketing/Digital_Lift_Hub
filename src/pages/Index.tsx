@@ -103,20 +103,20 @@ const Index = () => {
         description="Hyderabad digital agency: website design & maintenance, social media, reels, branding, campaigns, and analytics. Request a proposal today."
       />
 
-      <section className="relative overflow-hidden bg-[var(--gradient-hero)] text-yellow">
+      <section className="relative overflow-hidden bg-[#f4ebd7] text-slate-900">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(251,191,36,0.28),transparent_24%)]" aria-hidden="true" />
         <div className="section-shell relative grid gap-12 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:py-28">
           <div>
-            <div className="mb-6 inline-flex items-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-medium uppercase tracking-[0.3em] text-black/85">
+            <div className="mb-6 inline-flex items-center rounded-full border border-slate-300 bg-white/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.28em] text-slate-800 shadow-sm">
               <Sparkles className="mr-2 h-3.5 w-3.5 text-[hsl(var(--accent))]" />
               digital growth partners
             </div>
 
-            <h1 className="max-w-xl text-4xl font-black leading-tight tracking-[-0.04em] md:text-6xl">
+            <h1 className="max-w-xl text-4xl font-black leading-tight tracking-[-0.04em] text-slate-900 md:text-6xl">
               Lift your brand with a digital presence that performs.
             </h1>
 
-            <p className="mt-6 max-w-xl text-lg text-slate-200 md:text-black/85">
+            <p className="mt-6 max-w-xl text-lg text-slate-700">
               We help businesses grow through standout websites, social media strategy, branding, video content, and conversion-first digital experiences.
             </p>
 
@@ -135,9 +135,9 @@ const Index = () => {
               </Link>
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-200 md:text-black/85">
+            <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-800">
               {proofPoints.map((point) => (
-                <div key={point} className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2">
+                <div key={point} className="flex items-center gap-2 rounded-full border border-slate-300 bg-white/70 px-3 py-2 shadow-sm">
                   <CheckCircle2 className="h-4 w-4 text-[hsl(var(--accent))]" />
                   {point}
                 </div>
