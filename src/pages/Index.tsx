@@ -99,8 +99,42 @@ const Index = () => {
   return (
     <main className="overflow-hidden">
       <SEO
-        title="Digital Lift Hub | Web Development, Social Media & Branding"
-        description="Hyderabad digital agency: website design & maintenance, social media, reels, branding, campaigns, and analytics. Request a proposal today."
+        title="Digital Marketing in Hyderabad | Digital Lift Hub"
+        description="Digital Lift Hub is a Hyderabad digital marketing agency for website development, brand promotion, social media marketing, SEO, and conversion-focused campaigns."
+        keywords={[
+          "digital marketing in Hyderabad",
+          "best digital marketing agency in Hyderabad",
+          "brand promotion",
+          "website development",
+        ]}
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Digital Lift Hub",
+          image: "/brand-mark.svg",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Hyderabad",
+            addressRegion: "Telangana",
+            addressCountry: "IN",
+          },
+          areaServed: {
+            "@type": "City",
+            name: "Hyderabad",
+          },
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: "Digital marketing services",
+            itemListElement: [
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Digital marketing" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Brand promotion" } },
+              { "@type": "Offer", itemOffered: { "@type": "Service", name: "Website development" } },
+            ],
+          },
+          email: "digitallifthubmarketing@gmail.com",
+          telephone: "+919346122148",
+          url: "https://www.digitallifthub.com/",
+        }}
       />
 
       <section className="relative overflow-hidden bg-[#f4ebd7] text-slate-900">

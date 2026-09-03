@@ -146,8 +146,14 @@ const Services = () => {
   return (
     <main className="overflow-hidden">
       <SEO
-        title="Services | Digital Lift Hub"
-        description="Website design & maintenance, social media marketing, reels, branding, and analytics. Choose a service to request a proposal."
+        title="Digital Marketing Services in Hyderabad | Digital Lift Hub"
+        description="Explore digital marketing, website development, brand promotion, social media, SEO, content, and performance marketing services in Hyderabad."
+        keywords={[
+          "digital marketing services Hyderabad",
+          "best digital marketing",
+          "brand promotion services",
+          "website development Hyderabad",
+        ]}
       />
 
       
