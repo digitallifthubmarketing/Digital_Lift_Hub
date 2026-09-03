@@ -14,10 +14,15 @@ const SiteHeader = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70">
       <div className="section-shell flex items-center justify-between py-3.5">
-        <Link to="/" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[hsl(var(--primary))] text-white shadow-lg shadow-slate-900/20">
-            <img src="/lovable-uploads/0fa6793e-7bf9-4d2c-b832-b3306de285d8.png" alt="Digital Lift Hub logo" className="h-7 w-7" loading="eager" />
-          </div>
+        <Link to="/" className="flex items-center gap-3" aria-label="Digital Lift Hub home">
+          
+          {/* Replaced BrandMark component with your public SVG */}
+          <img 
+            src="/brand-mark.svg" 
+            alt="Digital Lift Hub Logo" 
+            className="h-12 w-auto shrink-0 object-contain"
+          />
+          
           <div>
             <div className="text-lg font-black tracking-tight text-slate-900">Digital Lift Hub</div>
             <div className="text-[10px] uppercase tracking-[0.24em] text-slate-500">Marketing Agency</div>

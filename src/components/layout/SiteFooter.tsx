@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Youtube, Instagram, Linkedin } from "lucide-react";
+import BrandMark from "@/components/common/BrandMark";
 
 const SiteFooter = () => {
   const [status, setStatus] = useState<"IDLE" | "SUCCESS" | "ERROR">("IDLE");
@@ -36,7 +37,7 @@ const SiteFooter = () => {
         <div>
           <div className="mb-4 flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/5">
-              <img src="/lovable-uploads/0fa6793e-7bf9-4d2c-b832-b3306de285d8.png" alt="Digital Lift Hub logo" className="h-7 w-7" />
+              <BrandMark className="h-7 w-7" />
             </div>
             <div>
               <div className="font-bold text-white">Digital Lift Hub</div>
