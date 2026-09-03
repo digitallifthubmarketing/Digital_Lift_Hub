@@ -261,7 +261,7 @@ const Quotation = () => {
                 </div>
 
                 <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3">
-                  <img src="/lovable-uploads/0fa6793e-7bf9-4d2c-b832-b3306de285d8.png" alt="Digital Lift Hub logo" className="h-12 w-12" />
+                  <img src="/brand-mark.svg" alt="Digital Lift Hub logo" width="48" height="48" className="h-12 w-12 object-contain" />
                   <div>
                     <div className="text-sm font-semibold text-slate-900">Digital Lift Hub</div>
                     <div className="text-[10px] uppercase tracking-[0.25em] text-slate-500">Marketing Agency</div>
