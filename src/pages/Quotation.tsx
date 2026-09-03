@@ -1,8 +1,6 @@
 import SEO from "@/components/common/SEO";
 import { useEffect, useMemo, useRef } from "react";
 import { useSearchParams, Link } from "react-router-dom";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
 import { ArrowRight, Check, Download, FileText, Sparkles } from "lucide-react";
 
 // Mapped each deliverable item directly to its service key
@@ -86,6 +84,10 @@ const Quotation = () => {
 
   // Professional Multi-page PDF Generator with Headers, Footers & Proper Margins
   const downloadPdf = async () => {
+    const [{ default: html2canvas }, { default: jsPDF }] = await Promise.all([
+      import("html2canvas"),
+      import("jspdf"),
+    ]);
     if (!quoteRef.current) return;
 
     const canvas = await html2canvas(quoteRef.current, {

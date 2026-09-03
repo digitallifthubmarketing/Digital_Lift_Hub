@@ -30,10 +30,12 @@ const SiteHeader = () => {
         <Link to="/" className="flex items-center gap-3" aria-label="Digital Lift Hub home">
           
           {/* Replaced BrandMark component with your public SVG */}
-          <img 
-            src="/brand-mark.svg" 
-            alt="Digital Lift Hub Logo" 
-            className="h-12 w-auto shrink-0 object-contain"
+          <img
+            src="/brand-mark.svg"
+            alt="Digital Lift Hub Logo"
+            width="48"
+            height="48"
+            className="h-12 w-12 shrink-0 object-contain"
           />
           
           <div>

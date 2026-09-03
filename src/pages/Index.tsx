@@ -244,9 +244,10 @@ const Index = () => {
               <p className="mt-3 text-base leading-relaxed text-slate-600">{description}</p>
               <Link
                 to={`/quotation?service=${encodeURIComponent(title)}`}
+                aria-label={`Request a quote for ${title}`}
                 className="mt-5 inline-flex items-center text-sm font-semibold text-[hsl(var(--primary))] transition group-hover:text-[hsl(var(--accent))]"
               >
-                Inquire now <ArrowRight className="ml-2 h-4 w-4" />
+                Request a quote <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </article>
           ))}
@@ -298,7 +299,7 @@ const Index = () => {
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {processSteps.map(({ step, title, text }) => (
             <div key={step} className="rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_-30px_rgba(15,23,42,0.8)]">
-              <div className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[hsl(var(--accent))]">{step}</div>
+              <div className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[hsl(var(--primary))]">{step}</div>
               <h3 className="text-2xl font-bold text-slate-900">{title}</h3>
               <p className="mt-3 text-slate-600">{text}</p>
             </div>

@@ -9,8 +9,8 @@ import SiteHeader from "./components/layout/SiteHeader";
 import SiteFooter from "./components/layout/SiteFooter";
 import CookieConsent from "./components/common/CookieConsent";
 import StickyCTA from "./components/common/StickyCTA";
+import Index from "./pages/Index";
 
-const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const Services = lazy(() => import("./pages/Services"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));

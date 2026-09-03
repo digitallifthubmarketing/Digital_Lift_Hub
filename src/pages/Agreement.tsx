@@ -1,7 +1,5 @@
 import { useState } from "react";
 import SEO from "@/components/common/SEO";
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
 import { ArrowDownToLine, CheckCircle2, FileText, ShieldCheck, Sparkles } from "lucide-react";
 
 const Agreement = () => {
@@ -10,6 +8,10 @@ const Agreement = () => {
   const downloadPdf = async () => {
     const el = document.getElementById("agreement");
     if (!el) return;
+    const [{ default: html2canvas }, { default: jsPDF }] = await Promise.all([
+      import("html2canvas"),
+      import("jspdf"),
+    ]);
     const canvas = await html2canvas(el, {
       scale: 2,
       backgroundColor: "#ffffff",

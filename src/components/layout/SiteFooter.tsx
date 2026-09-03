@@ -50,7 +50,7 @@ const SiteFooter = () => {
         </div>
 
         <div>
-          <h4 className="mb-4 font-semibold text-white">Contact</h4>
+          <h2 className="mb-4 font-semibold text-white">Contact</h2>
           <ul className="space-y-3 text-sm text-slate-300">
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-[hsl(var(--accent))]" />
@@ -74,7 +74,7 @@ const SiteFooter = () => {
         </div>
 
         <div>
-          <h4 className="mb-4 font-semibold text-white">Company</h4>
+          <h2 className="mb-4 font-semibold text-white">Company</h2>
           <ul className="space-y-3 text-sm">
             <li><Link className="story-link text-slate-300 hover:text-white" to="/services">Services</Link></li>
             <li><Link className="story-link text-slate-300 hover:text-white" to="/portfolio">Portfolio</Link></li>
@@ -86,7 +86,7 @@ const SiteFooter = () => {
         </div>
 
         <div>
-          <h4 className="mb-4 font-semibold text-white">Stay in the loop</h4>
+          <h2 className="mb-4 font-semibold text-white">Stay in the loop</h2>
           <form onSubmit={handleNewsletterSubmit} className="space-y-3" aria-label="Newsletter signup">
             <input type="text" name="_gotcha" className="hidden" aria-hidden="true" />
             <input
